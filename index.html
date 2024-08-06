@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <h1>Billing Management System</h1>
+  <div class="container-fluid">
+   <div class="container">
+    <div class="part1">
+     <fieldset>
+      <legend>Personal Information</legend>
+      Full Name: <input type="text" id="name" /> <br />
+
+      Your Email: <input type="text" id="email" /><br />
+      Your Mobile: <input type="text" id="mobile" /><br />
+     </fieldset>
+    </div>
+
+    <div class="part2">
+     <fieldset>
+      <legend>Your Orders</legend>
+      Smosa (Rs. 10): <input type="text" id="smosa" /> <br />
+      Kachori (Rs. 12): <input type="text" id="kachori" /><br />
+      Vadapav (Rs. 60): <input type="text" id="vadapav" /><br />
+      Maggi (Rs. 50): <input type="text" id="maggi" /><br />
+     </fieldset>
+    </div>
+   </div>
+
+   <div class="container">
+    <fieldset>
+     <legend>Your Bill</legend>
+     <h3>Your Name:<span id="name2"></span></h3>
+     <h3>Email: <span id="email2"></span></h3>
+     <h3>Mobile: <span id="mobile2"></span></h3>
+     <table border="1">
+      <thead>
+       <tr>
+        <th>Menu</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Amout</th>
+       </tr>
+      </thead>
+      <tbody id="bill">
+       <tr>
+        <td>Smosa</td>
+        <td>Rs. 10</td>
+        <td>1</td>
+        <td>10x1 = 10</td>
+       </tr>
+      </tbody>
+     </table>
+    </fieldset>
+    <h2>Total Amout: Rs. <span id="amount">0</span></h2>
+   </div>
+  </div>
+  <script src="invoic.js"></script>
+ </body>
+</html>
