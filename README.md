@@ -14,10 +14,9 @@ Welcome to the **Billing Management System** — a simple yet powerful tool desi
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python / Java / C++ (replace with your actual language)  
-- **IDE:** VS Code / PyCharm / IntelliJ / etc.  
-- **Database:** SQLite / MySQL / File-based (if applicable)  
-- **Libraries/Tools:** (if any — e.g., tkinter for GUI, pandas for data management)
+- **Language:** Html, Css and Javascript  
+- **IDE:** VS Code.  
+- **Database:** SQLite / MySQL / MongoDB  
 
 ## 🔧 Installation & Usage
 
